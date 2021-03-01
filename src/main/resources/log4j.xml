@@ -27,7 +27,7 @@
 	</appender>
 
 	<!-- ################ MoSy ########## -->
-	<category name="com.github.joergdev.mosy" additivity="false">
+	<category name="de.joergdev.mosy" additivity="false">
 		<priority value="${mosy.log.level}" />
 		<appender-ref ref="Protokoll" />
 		<appender-ref ref="Console" />

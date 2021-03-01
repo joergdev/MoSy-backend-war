@@ -9,7 +9,7 @@
 	<deployment>
 
 		<dependencies>
-			<module name="com.github.joergdev.mosy-backend" export="true" />
+			<module name="de.joergdev.mosy.backend" export="true" />
 		</dependencies>
 
 	</deployment>
