@@ -1,11 +1,11 @@
-package com.github.joergdev.mosy.backend.war;
+package de.joergdev.mosy.backend.war;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.persistence.EntityManager;
 import javax.transaction.Status;
 import javax.transaction.UserTransaction;
-import com.github.joergdev.mosy.backend.persistence.EntityManagerProvider;
+import de.joergdev.mosy.backend.persistence.EntityManagerProvider;
 
 public class EntityManagerProviderImpl implements EntityManagerProvider
 {
