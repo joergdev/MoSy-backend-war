@@ -6,7 +6,7 @@
     
     
     
-    <wb-module deploy-name="mosy-backend-war-2.4">
+    <wb-module deploy-name="mosy-backend-war-2.5">
                                                                 
         
         
@@ -72,14 +72,7 @@
         
         
         <property name="component.exclusion.patterns"/>
-                                                                
-        
-        
-        
-        
-        
-        
-        <property name="component.inclusion.patterns" value="WEB-INF/*.xml,WEB-INF/classes/**,WEB-INF/lib/de.joergdev-*.jar,WEB-INF/lib/jdom*.jar,WEB-INF/lib/net.sf.dozer-*.jar,WEB-INF/lib/org.apache.commons-commons-lang*.jar,WEB-INF/lib/commons-beanutils-*.jar"/>
+        <property name="component.inclusion.patterns" value="WEB-INF/*.xml,WEB-INF/classes/**,WEB-INF/lib/de.joergdev-*.jar,WEB-INF/lib/*jdom2*.jar,WEB-INF/lib/net.sf.dozer-*.jar,WEB-INF/lib/org.apache.commons-commons-lang*.jar,WEB-INF/lib/commons-beanutils-*.jar"/>
                                                             
     
     
