@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-                                                        
+                                                                            
     
     
     
@@ -12,8 +12,18 @@
     
     
     
-    <wb-module deploy-name="mosy-backend-war-3.0.0">
-                                                                                                                
+    
+    
+    
+    
+    
+    <wb-module deploy-name="mosy-backend-war-3.1.0">
+                                                                                                                                                        
+        
+        
+        
+        
+        
         
         
         
@@ -27,7 +37,12 @@
         
         
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-                                                                                                                
+                                                                                                                                                        
+        
+        
+        
+        
+        
         
         
         
@@ -41,7 +56,12 @@
         
         
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                                                                                                                
+                                                                                                                                                        
+        
+        
+        
+        
+        
         
         
         
@@ -55,7 +75,12 @@
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                                                                                                                
+                                                                                                                                                        
+        
+        
+        
+        
+        
         
         
         
@@ -78,7 +103,12 @@
         <dependent-module archiveName="de.joergdev-mosy-shared.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mosy-shared/mosy-shared">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-                                                                                                                
+                                                                                                                                                        
+        
+        
+        
+        
+        
         
         
         
@@ -92,7 +122,12 @@
         
         
         <property name="context-root" value="mosy-backend-war"/>
-                                                                                                                
+                                                                                                                                                        
+        
+        
+        
+        
+        
         
         
         
@@ -106,7 +141,12 @@
         
         
         <property name="java-output-path" value="/mosy-backend-war/target/classes"/>
-                                                                                                                
+                                                                                                                                                        
+        
+        
+        
+        
+        
         
         
         
@@ -120,14 +160,24 @@
         
         
         <property name="component.exclusion.patterns"/>
-                                                        
+                                                                                                
+        
+        
+        
+        
+        
         
         
         
         
         
         <property name="component.inclusion.patterns" value="WEB-INF/*.xml,WEB-INF/classes/**,WEB-INF/lib/de.joergdev-*.jar,WEB-INF/lib/*jdom2*.jar,WEB-INF/lib/net.sf.dozer-*.jar,WEB-INF/lib/org.apache.commons-commons-lang*.jar,WEB-INF/lib/commons-beanutils-*.jar"/>
-                                                                                                            
+                                                                                                                                                    
+    
+    
+    
+    
+    
     
     
     
@@ -141,7 +191,12 @@
     
     
     </wb-module>
-                                                    
+                                                                        
+
+
+
+
+
 
 
 
