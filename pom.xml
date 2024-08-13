@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.joergdev</groupId>
 	<artifactId>mosy-backend-war</artifactId>
-	<version>3.1.1</version>
+	<version>4.0.0</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>de.joergdev</groupId>
 			<artifactId>mosy-backend</artifactId>
-			<version>3.1.1</version>
+			<version>4.0.0</version>
 		</dependency>
 	</dependencies>
 	
@@ -39,11 +39,14 @@
 					<packagingIncludes>WEB-INF/*.xml, WEB-INF/classes/**,
 						WEB-INF/lib/de.joergdev-*.jar,
 						WEB-INF/lib/*jdom2*.jar,
-						WEB-INF/lib/net.sf.dozer-*.jar,
+						WEB-INF/lib/com.github.dozermapper-*.jar,
 						WEB-INF/lib/org.apache.commons-commons-lang*.jar,
+						WEB-INF/lib/*commons*io*.jar,
+						WEB-INF/lib/*objenesis*.jar,
 						WEB-INF/lib/commons-beanutils-*.jar</packagingIncludes>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+	
 </project>
